@@ -11,7 +11,7 @@ services:
     name: django_render
     runtime: python
     region: singapore
-    branch:main
+    branch: main
     healthCheckPath: /
     buildCommand: './build.sh'
     startCommand: 'python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker' 
