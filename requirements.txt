@@ -4,5 +4,6 @@ dj-static
 python-decouple
 django-environ
 gunicorn
+uvicorn
 psycopg2-binary
 whitenoise
